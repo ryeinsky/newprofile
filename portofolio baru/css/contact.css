@@ -1,0 +1,37 @@
+#contact {
+  padding-top: 5rem;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#contact .form-label {
+  font-weight: 600;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: box-shadow 0.3s ease;
+}
+
+#contact .form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 238, 255, 0.5);
+  border-color: #0ef;
+}
+
+#contact button {
+  background-color: #0ef;
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 25px;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #00c8e0;
+  color: #fff;
+}

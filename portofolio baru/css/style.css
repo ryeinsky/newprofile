@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Light mode */
+body[data-bs-theme="light"] {
+  background-color: white;
+  color: black;
+}
+
+body[data-bs-theme="light"] .navbar {
+  background-color: #f88be0;
+}
+
+body[data-bs-theme="light"] #contact {
+  background-color: white;
+}
+
+/* Dark mode */
+body[data-bs-theme="dark"] {
+  background-color: #121212;
+  color: white;
+}
+
+body[data-bs-theme="dark"] .navbar {
+  background-color: #333;
+}
+
+body[data-bs-theme="dark"] #contact {
+  background-color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f88be0;
+}
+
+.navbar .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #0ef;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0ef;
+}
+
+#togle {
+  border: 1px solid white;
+  color: white;
+  padding: 4px 10px;
+}
+
+#togle:hover {
+  background-color: #0ef;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+}
+
+footer a {
+  transition: transform 0.3s ease;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+}
